@@ -300,10 +300,17 @@ header nav .home-color {
   #browse .big {
     margin-bottom: 100px;
   }
+  #browse .box .textbox .add .btn {
+    margin: 0 0 0 10px;
+  }
 }
 @media (max-width: 576px) {
   #browse .bgc, #browse .btn {
     padding: 10px 15px;
+  }
+  #browse .box .textbox .add .btn {
+    margin: 0 0 0 10px;
+    padding: 10px;
   }
 }
 
