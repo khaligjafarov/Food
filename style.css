@@ -93,6 +93,11 @@ header nav .home-color {
   }
 }
 
+@media (max-width: 576px) {
+  section {
+    padding: 0;
+  }
+}
 #thehome {
   background-color: #f1f8f9;
 }
@@ -153,6 +158,9 @@ header nav .home-color {
   }
 }
 @media (max-width: 576px) {
+  #thehome .textbox {
+    margin: 0;
+  }
   #thehome .textbox h1 {
     font-size: 40px;
   }
