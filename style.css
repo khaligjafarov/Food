@@ -299,7 +299,7 @@ header nav .home-color {
 }
 @media (max-width: 576px) {
   #browse .bgc, #browse .btn {
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
 }
 
