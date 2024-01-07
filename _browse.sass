@@ -3,23 +3,23 @@
         width: 500px
         text-align: center
         h1
-            font-weight: 700
             font-size: 60px
+            font-weight: 700
             color: #3cc1d8
         h4
-            font-size: 20px
             color: #6c7480
+            font-size: 20px
             margin: 20px 0
             line-height: 1.2
             span
-                color: #3cc1d8
                 text-decoration-line: underline
+                color: #3cc1d8
     .btn
-        font-size: 18px
         border: 0.5px solid #bdbdbd
         padding: 15px 46px
-        margin: 0 20px
+        font-size: 18px
         border-radius: 5px
+        margin: 0 20px
     .bgc
         background-color: #3cc1d8
         color: #ffff
@@ -40,10 +40,10 @@
                     color: #3cc1d8
                     font-size: 18px
             p
-                margin: 15px 0
                 font-size: 18px
                 line-height: 1.2
                 color: #232f4285
+                margin: 15px 0
             .add
                 display: flex
                 input
@@ -55,26 +55,21 @@
                     color: #ffff
                     padding: 7px 20px
     .big
-        padding: 17px 53px
         margin-top: 50px
+        padding: 17px 53px
 
-    @media  ( max-width: 992px )
-        .big
-            margin-bottom: 100px
+    @media screen and ( max-width: 500px )
+        .btn
+            padding: 10px
+            margin-right: 2px
+
+    @media screen and ( max-width: 390px )
         .box
-            .textbox
-                .add
-                    .btn
-                        margin: 0 0 0 10px
-
-
-    @media  ( max-width: 576px )
-        .bgc, .btn
-            padding: 10px 15px
-        .box
-            .textbox
-                .add
-                    .btn
-                        margin: 0 0 0 10px
-                        padding: 5px  
-                     
+            padding: 20px 0
+            .imgbox
+                width: 180px
+            .add
+                input
+                    width: 15px
+                .btn
+                    padding: 7px 3px
